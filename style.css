@@ -75,13 +75,13 @@ nav a:first-child {
   footer {
     position: fixed;
     left: 0px;
-    bottom: 20px;
+    bottom: 0px;
     width: 100%;
     color: #ffffff;
-    height: 50px;
+    height: 30px;
     background-color: #666666;
-    padding: 20px;
-    border-top: 8px solid #4aaaa5;
+    padding: 5px;
+    
 border-color: #4aaaa5; 
 }
 h3{
@@ -95,6 +95,7 @@ h3{
     
 #main-container {
     padding-top: 130px;
+    width: auto;
   min-height: calc(100vh - 70px);
 }
 
@@ -226,7 +227,7 @@ p{
 }
 
 #container {
-    max-width: 100%;
+    
     background-color: whitesmoke;
     /* box-sizing: border-box;
     overflow:  auto;
@@ -243,6 +244,7 @@ p{
 width: 50%;
 background-color: lightslategray;
 height: auto;
+max-width; 500px;
 border: solid 1px lightgrey;
 margin: 0 auto;
 }
@@ -314,6 +316,9 @@ h1 {
 
 .i-am-centered { margin: auto; max-width: 50%;}
 
+.contact {
+    padding: 10px;
+}
 
 
 
